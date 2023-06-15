@@ -1,0 +1,9 @@
+[package]
+name = "zoom-webhook-validator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"
+hmac = "0.12"
+insta = { version = "1", features = ["yaml"] }

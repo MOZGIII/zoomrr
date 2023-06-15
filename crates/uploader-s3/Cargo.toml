@@ -1,0 +1,12 @@
+[package]
+name = "uploader-s3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uploader = { path = "../uploader" }
+
+async-trait = "0.1"
+aws-sdk-s3 = "0.28.0"
+hyper = { version = "0.14", default-features = false }
+tracing = "0.1"

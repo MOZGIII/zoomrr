@@ -1,0 +1,10 @@
+---
+source: crates/zoom-webhook-schema/tests/parsing.rs
+assertion_line: 21
+expression: value
+---
+event: endpoint.url_validation
+event_ts: 1654503849680
+payload:
+  plainToken: qgg8vlvZRS6UYooatFL8Aw
+

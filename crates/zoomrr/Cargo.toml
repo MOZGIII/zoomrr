@@ -1,0 +1,20 @@
+[package]
+name = "zoomrr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper-client = { path = "../hyper-client" }
+uploader-gdrive = { path = "../uploader-gdrive" }
+zoom-webhook-validator = { path = "../zoom-webhook-validator" }
+core-routes = { path = "../core-routes" }
+core-upload = { path = "../core-upload" }
+
+anyhow = "1"
+axum = "0.6"
+envfury = "0.1"
+tokio = { version = "1" ,features = ["full"] }
+tokio-util = { version = "0.7", features = [] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+yup-oauth2 = "8"
